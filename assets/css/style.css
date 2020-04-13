@@ -1,0 +1,109 @@
+*{
+    margin:0;
+    padding:0 ;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-image: image('sunset.jpeg');
+    background-size: cover;
+    background-position: top center;
+}
+.app-container{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: linear-gradient(rgb(48,62,143),rgb(45,117,153)rgb(47,150,163));
+}
+header{
+    display: flex ;
+    justify-content: center;
+    align-items:center;
+    padding:50px 15px 15px;
+}
+header input{
+    float: center;
+    width:100%;
+    max-width:280px ;
+    padding:10px 12px ;
+    border: none ;
+    outline:none ;
+    background-color: rgba(128, 128, 128, 0.164) ;
+    border-radius: 18px 0px 18px 0px;
+    border-bottom: 4px solid #1bb9ce ;
+    color: #313131;
+    font-size: 15px;
+    font-weight: 200;
+    transition: 0.3s ease-in-out;
+}
+main{
+    flex: 100%;
+    padding: 30px 30px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.location .city{
+    /* color: #ffffff; */
+    font-size: 36px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+.location .date{
+    /* color: #ffffff; */
+    font-size: 18px;
+}
+.current .temp{
+    /* color: #ffffff; */
+    font-size: 100px;
+    font-weight: 700;
+    margin: 30px 0px;
+    text-shadow: 3px 8px rgba(0, 0,0,.7)
+}
+.current .temp span {
+    font-weight: 400;
+}
+.current .conditions{
+    /* color: #ffffff; */
+    font-size: 30px;
+    font-weight: 700;
+    font-style: oblique;
+    text-shadow: 0px 4px rgba(0, 0,0,.3);
+}
+.current .high-low{
+    /* color: #ffffff; */
+    font-size: 30px;
+    font-weight: 700;
+    text-shadow:0px 4px rgba(0, 0,0,.3);
+}
+#fivecast{
+    /* margin-top: 50px;
+    margin: 1rem;
+    border-radius: 10px;
+    box-shadow: 2px 2px rgba(128, 128, 128, 0.8); */
+    float: center;
+    width:100%;
+    max-width:280px ;
+    padding:10px 12px ;
+    border: none ;
+    outline:none ;
+    background-color: rgba(128, 128, 128, 0.164) ;
+    border-radius: 18px 0px 18px 0px;
+    border-bottom: 4px solid #1bb9ce ;
+}
+.search-box {
+    /* margin-top: 50px;
+    margin: 1rem;
+    border-radius: 10px;
+    box-shadow: 2px 2px rgba(128, 128, 128, 0.8); */
+    float: center;
+    width:100%;
+    max-width:280px ;
+    padding:10px 12px ;
+    border: none ;
+    outline:none ;
+    background-color: rgba(128, 128, 128, 0.164) ;
+    border-radius: 18px 0px 18px 0px;
+    border-bottom: 4px solid #1bb9ce ;
+}
